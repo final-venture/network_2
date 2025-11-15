@@ -1,0 +1,36 @@
+#include "Matrix.h"
+#include "utils.h"
+#include <iostream>
+
+int main()
+{
+    srand(time(nullptr));
+    Matrix m1{{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}};
+    Matrix m2{{{1, 2}, {3, 4}, {5, 6}}};
+
+    std::cout << "m1: " << m1.getRowCount() << "x" << m1.getColCount() << '\n';
+    std::cout << m1;
+    std::cout << "------------------" << '\n';
+
+    std::cout << "m2: " << m2.getRowCount() << "x" << m2.getColCount() << '\n';
+    std::cout << m2;
+    std::cout << "------------------" << '\n';
+
+    Matrix ret = m1 * m2;
+    std::cout << "result: " << ret.getRowCount() << "x" << ret.getColCount() << '\n';
+    std::cout << ret;
+    std::cout << "------------------" << '\n';
+
+    // TEST INVALID ADDROW
+    // ret.addRow({1, 2, 3});
+    // std::cout << ret;
+    // std::cout << "------------------" << '\n';
+
+    // TEST INVALID ADDCOL
+    // ret.addCol({1, 2, 3, 4, 5});
+    // std::cout << ret;
+
+    Matrix ret2 = ret + Matrix{{{1, 2}, {3, 4}, {5, 6}}};
+    std::cout << ret2;
+    std::cout << "------------------" << '\n';
+}

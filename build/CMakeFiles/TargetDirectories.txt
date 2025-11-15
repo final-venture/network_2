@@ -1,0 +1,3 @@
+C:/Users/23856/Desktop/network_2/build/CMakeFiles/Network2.dir
+C:/Users/23856/Desktop/network_2/build/CMakeFiles/edit_cache.dir
+C:/Users/23856/Desktop/network_2/build/CMakeFiles/rebuild_cache.dir

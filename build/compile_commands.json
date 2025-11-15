@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/23856/Desktop/network_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Network2.dir\\main.cpp.obj -c C:\\Users\\23856\\Desktop\\network_2\\main.cpp",
+  "file": "C:/Users/23856/Desktop/network_2/main.cpp",
+  "output": "CMakeFiles/Network2.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/23856/Desktop/network_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Network2.dir\\Matrix.cpp.obj -c C:\\Users\\23856\\Desktop\\network_2\\Matrix.cpp",
+  "file": "C:/Users/23856/Desktop/network_2/Matrix.cpp",
+  "output": "CMakeFiles/Network2.dir/Matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/23856/Desktop/network_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Network2.dir\\Network.cpp.obj -c C:\\Users\\23856\\Desktop\\network_2\\Network.cpp",
+  "file": "C:/Users/23856/Desktop/network_2/Network.cpp",
+  "output": "CMakeFiles/Network2.dir/Network.cpp.obj"
+}
+]
